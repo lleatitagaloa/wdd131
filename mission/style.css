@@ -44,3 +44,7 @@ img {
 li {
     margin-bottom: 15px;
 }
+.dark {
+    background-color: black;
+    color: white;
+}
