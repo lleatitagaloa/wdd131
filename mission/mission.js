@@ -15,6 +15,7 @@ function changeTheme() {
         logo.src = "images/byui-logo-blue.webp";
         document.body.style.backgroundColor = "white";
         document.body.style.color = "black";
+        document.body.classList.remove("dark");
     }
 }           
                     
