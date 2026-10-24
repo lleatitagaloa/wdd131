@@ -40,7 +40,7 @@ header h1 {
 .main-nav a:focus-visible {
     text-decoration: underline;
 }
-.book {
+.book-list {
     padding: 16px;
     border-bottom: 1px solid #e9b77e;
 }
@@ -75,6 +75,7 @@ footer {
     padding: 2px 12px;
     text-align: center;
     font-size: 0.85rem;
+    border-bottom: 1px solid #e9b77e;
 }
 footer p {
     margin: 10px 0;
@@ -97,15 +98,20 @@ footer p {
 }
 
 @media screen and (min-width: 700px) {
-    .book {
+    .book-list {
         display: grid;
         grid-template-columns: 30% 70%;
         padding: 24px 16px 20px;
+        row-gap: 50px;
     }
     .book-meta {
         padding: 0 20px 0 0;
         border-right: 1px solid #e9b77e;
+        margin-top: 24px;
     }
+    .book-meta:last-of-type {
+    margin-bottom: 0;
+}
     .book-details {
         padding: 0 20px;
         text-align: left;
