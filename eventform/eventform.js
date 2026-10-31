@@ -119,6 +119,11 @@ form.addEventListener("submit", function (event) {
     `;
 
     form.reset();
+
+    textFields.forEach(field => {
+        field.classList.remove("filled");
+    });
+    
     updateFields();
 });
           
