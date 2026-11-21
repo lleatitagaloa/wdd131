@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Recipe Book</title>
+    <script defer src="recipes.js"></script>
     <meta 
         name="description"
         content="Discover easy and delicious recipes."
@@ -63,8 +64,8 @@
             <h1>RecipeBook</h1>
         </section>
         <section id="search-container">
-            <form>
-                <input type="search" id="search" placeholder="Find a recipe">
+            <form id="search-form">
+                <input type="search" id="search" name="search" placeholder="Find a recipe">
                 <button type="submit" aria-label="Search">
                     <img src="images/search_icon.svg" alt="">
                 </button>
@@ -73,31 +74,6 @@
     </header>
     <main>
       <section class="recipe-card-container">
-        <section class="recipe-card">
-            <div class="recipe-card-image">
-                <img src="images/apple_crisp.jpg"
-                    alt="Apple crisp with vanilla ice cream">
-            </div>
-            <div class="recipe-card-content">
-                <span class="category">dessert</span>
-                <h2>Apple Crisp</h2>      
-                <span
-                class="rating"
-                role="img"
-                aria-label="Rating: 4 out of 5 stars"
-                >
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star-empty">☆</span>
-                </span>
-                <p class="description">
-                    This apple crisp recipe is a simple yet delicious fall dessert that's great
-                    served warm with vanilla ice cream.
-                </p>
-            </div>
-        </section>
       </section>
     </main>
     <footer>
