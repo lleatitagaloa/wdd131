@@ -359,7 +359,7 @@ function tagTemplate(tags) {
 }
 
 function ratingTemplate(rating) {
-		let html = `<span
+	let html = `<span
 	class="rating"
 	role="img"
 	aria-label="Rating: ${rating} out of 5"
